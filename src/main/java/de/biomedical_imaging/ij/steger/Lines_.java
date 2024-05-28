@@ -64,7 +64,7 @@ public class Lines_ implements ExtendedPlugInFilter, DialogListener {
 	final  static double contrastLowDefault = 87;
 	double contrastLow = contrastLowDefault;
 
-	final static double slopeThresholdDefault = 0.1;
+	final static double slopeThresholdDefault = -1;
 	double slopeThreshold = slopeThresholdDefault;
 	
 	final static double sigmaDefault = 1.51;
