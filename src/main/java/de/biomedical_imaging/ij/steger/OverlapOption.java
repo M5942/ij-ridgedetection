@@ -21,16 +21,12 @@
  */
 package de.biomedical_imaging.ij.steger;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * Algorithm options for {@link OverlapResolver} choices.
  *
- * @author Mark Hiner (hinerm@gmail.com)
+ * @author Mark Hiner <hinerm@gmail.com>
  */
 public enum OverlapOption {
-
-	/** The none. */
-	NONE,
-	/** The slope. */
-	SLOPE;
+	NONE, SLOPE;
 }

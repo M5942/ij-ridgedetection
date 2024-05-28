@@ -21,15 +21,7 @@
  */
 package de.biomedical_imaging.ij.steger;
 
-// TODO: Auto-generated Javadoc
-/**
- * The Class Region.
- */
 public class Region {
-
-	/** The num. */
-	int num; /* number of chords */
-
-	/** The rl. */
-	Chord[] rl; /* array of chords */
+	int  num;      /* number of chords */     
+	Chord[] rl;      /* array of chords */
 }

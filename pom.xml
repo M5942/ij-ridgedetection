@@ -9,7 +9,7 @@
 	</parent>
 
 	<groupId>de.biomedical-imaging.imagej</groupId>
-	<artifactId>ij_ridge_detect</artifactId>
+	<artifactId>horizontal_ij_ridge_detect</artifactId>
 	<version>1.4.2-SNAPSHOT</version>
 
 	<name>Ridge Detection Plugin for ImageJ</name>
