@@ -98,7 +98,7 @@ public class LineDetector {
             }
         }
 
-        return slopeThreshold <= 0 ? lines : horizontalLines;
+        return slopeThreshold < 0 ? lines : horizontalLines;
 }
 	
 	
