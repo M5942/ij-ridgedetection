@@ -225,7 +225,7 @@ public class Lines_ implements ExtendedPlugInFilter, DialogListener {
 	@Override
 	public int showDialog(ImagePlus imp, String command, PlugInFilterRunner pfr) {
 		
-		GenericDialogPlus gd = new GenericDialogPlus("Modified Ridge Detection");
+		GenericDialogPlus gd = new GenericDialogPlus("Horizontal Ridge Detection");
 		gd.addMessage("Optional_parameters:");
 		gd.addNumericField("Line_width", lineWidth, 1);
 		gd.addNumericField("High_Contrast", contrastHigh, 0);
